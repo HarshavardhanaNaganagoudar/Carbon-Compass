@@ -19,10 +19,24 @@ By mapping actions on a **2D compass** — from *Easy ↔ Hard to Change* and *L
 
 ---
 
+## ⚡ How It Works
+
+1. ✍️ **Input** – User enters lifestyle choices (comma-separated).  
+2. 🤖 **Classification** – An LLM (or heuristic) assigns each choice coordinates in **[-1, 1]²**.  
+3. 🧭 **Mapping** – Choices are plotted on the **Carbon Compass**:  
+   - **X-axis** → *Easy ↔ Hard to Change*  
+   - **Y-axis** → *Low ↔ High CO₂ Footprint*  
+4. 🎨 **Visualization** – Quadrants are **color-coded** by impact level.  
+5. 📷 **Output** – A visualization is generated and returned as a **PNG** in the UI.  
+
+---
+
 ## 🖼️ Result
 
 | Output image | 
 |-------------|
-| ![Image](assets/Home_screen.png) | 
+| ![Image](/result.png) | 
 
 ---
+
+
